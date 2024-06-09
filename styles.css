@@ -1,0 +1,1208 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Clash Display', sans-serif;
+    position: relative;
+    background-image: url('images/background.png');
+    background-position: center; 
+    background-repeat: no-repeat;
+    z-index: 0;
+
+}
+
+.logo-container {
+    position: absolute;
+    left: 175px;
+    top: 53px;
+    z-index: 5;
+}
+
+.logo {
+    width: 117px;
+    height: 34.41px;
+    z-index: 5;
+}
+
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 26px;
+    z-index: 5;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 5;
+}
+
+.nav-item {
+    position: absolute;
+    top: 57px;
+    height: 26px;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Clash Display ' sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#home {
+    left: 332px;
+    width: 60px;
+}
+
+#about-us {
+    left: 416px;
+    width: 95px;
+}
+
+#pricing {
+    left: 529px;
+    width: 68px;
+}
+
+#features {
+    left: 621px;
+    width: 89px;
+}
+
+.download-button {
+    position: absolute;
+    top: 40px;
+    left: 1085px;
+    width: 180px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border: none;
+    line-height: 28px;
+    font-family: 'Clash Display ', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 5;
+}
+.download-button:hover{
+    border: 2px solid black;
+    background-color: #FF5555;
+    color: #000000;
+
+}
+
+.nav-item:hover {
+    color: #FF5555;
+    font-weight: bold;
+}
+
+img {
+    position: absolute;
+}
+
+
+.image-1 {
+    left: 79.94px;
+    top: 116px;
+    width: 48px;
+    height: 48px;
+    transform: rotate(-45deg);
+}
+
+.image-2 {
+    left: 1325px;
+    top: 60px;
+    width: 64px;
+    height: 64px;
+    transform: rotate(0deg);
+}
+
+.image-3 {
+    left: 953.57px;
+    top: 724.57px;
+    width: 48px;
+    height: 48px;
+    transform: rotate(-150deg);
+}
+
+.image-4 {
+    left: 79.94px;
+    top: 1070.71px;
+    width: 48px;
+    height: 48px;
+    transform: rotate(45deg);
+}
+
+.image-5 {
+    left: 314.94px;
+    top: 569px;
+    width: 48px;
+    height: 48px;
+    transform: rotate(-45deg);
+}
+
+.image-6 {
+    left: 1370px;
+    top: 1659.71px;
+    width: 64px;
+    height: 64px;
+    transform: rotate(0deg);
+}
+
+.image-7 {
+    left: 664.94px;
+    top: 2229.71px;
+    width: 48px;
+    height: 48px;
+    transform: rotate(-45deg);
+}
+
+.image-8 {
+    left: 1136px;
+    top: 2861.71px;
+    width: 64px;
+    height: 64px;
+    transform: rotate(0deg);
+}
+
+.image-9 {
+    left: 81.94px;
+    top: 3702.71px;
+    width: 48px;
+    height: 48px;
+    transform: rotate(45deg);
+}
+
+.image-10 {
+    left: 779px;
+    top: 3941.71px;
+    width: 64px;
+    height: 64px;
+    transform: rotate(0deg);
+}
+
+.image-11 {
+    left: 1323px;
+    top: 4689.71px;
+    width: 64px;
+    height: 64px;
+    transform: rotate(0deg);
+}
+
+.image-12 {
+    left: 81.94px;
+    top: 4900.71px;
+    width: 48px;
+    height: 48px;
+    transform: rotate(-45deg);
+}
+
+.image-circular-s1, 
+.image-circular-s2, 
+.image-circular-s3 {
+    width: 376.57px;
+    height: 542.07px;
+    transform: rotate(-45deg);
+    z-index: 0;
+
+
+}
+.image-circular-s1 {
+    position: absolute;
+    left: 1000px;
+    top: 120px; /* Corrected top value to align with the section */
+    
+}
+
+.image-circular-s2 {
+    position: absolute;
+    left: 968px;
+    top: 152px; /* Corrected top value to align with the section */
+}
+
+.image-circular-s3 {
+    position: absolute;
+    left: 936px;
+    top: 184px; /* Corrected top value to align with the section */
+}
+
+
+
+.image-zig-zag {
+    left: 175px;
+    top: 530px;
+    width: 525px;
+    height: 375px;
+}
+
+.video-icon {
+    left: 395px;
+    top: 462px;
+    width: 29px;
+    height: 29px;
+    z-index: 2;
+}
+
+.iphone-front {
+    left: 840px;
+    top: 140px;
+    width: 249.25px;
+    height: 504.32px;
+    z-index: 3;
+    transform: rotate(-15deg);
+}
+
+.iphone-middle {
+    left: 962px;
+    top: 217.6px;
+    width: 249.59px;
+    height: 505.02px;
+    z-index: 2;
+    transform: rotate(-15deg);
+}
+
+.iphone-back {
+    left: 1100px;
+    top: 290px;
+    width: 249.59px;
+    height: 505.02px;
+    z-index: 1;
+    transform: rotate(-15deg);
+}
+
+.iphone-front-features {
+    left: 281px;
+    top: 1051px;
+    width: 249.25px;
+    height: 504.32px;
+    z-index: 3;
+}
+
+.iphone-middle-advantages {
+    left: 930px;
+    top: 1689.49px;
+    width: 249.59px;
+    height: 505.02px;
+    z-index: 3;
+}
+
+.iphone-front-fully-customizable {
+    left: 283px;
+    top: 2329.98px;
+    width: 249.25px;
+    height: 504.32px;
+    z-index: 3;
+}
+
+.text-container {
+    position: absolute;
+    left: 175px;
+    top: 140px;
+    width: 618px;
+    height: 128px;
+}
+
+.main-text {
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: bold;
+}
+
+.mini-text-container {
+    position: absolute;
+    left: 175px;
+    top: 342px;
+    width: 620px;
+    height: 56px;
+}
+
+.mini-text {
+    color: black;
+    font-family: 'Clash Display ', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 50%;
+    font-weight: 500;
+}
+
+.get-started-button {
+    position: absolute;
+    top: 447px;
+    left: 175px;
+    width: 180px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border: none;
+    line-height: 28px;
+    font-family: 'Clash Display ', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.get-started-button:hover{
+    border: 2px solid black;
+    background-color: #FF5555;
+    color: #000000;
+
+}
+
+.watch-video-button {
+    position: absolute;
+    top: 462px;
+    left: 419px;
+    width: 140px;
+    height: 28px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    line-height: 28px;
+    font-family: 'Clash Display ', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.watch-video-button:hover{
+    color: #FF5555
+
+}
+
+
+/* New Features Section */
+.features-section {
+    position: absolute;
+    left: 730px;
+    top: 1071px;
+    width: 638px;
+    height: 464px;
+}
+
+.features-heading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 116px;
+    height: 28px;
+    color: #FF5555;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.features-key-point {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 359px;
+    height: 48px;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.features-sub-key-point {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#features-sub-key-point-1 {
+    position: absolute;
+    left: 32px;
+    top: 122px;
+    width: 175px;
+
+}
+
+#features-sub-key-point-2 {
+    position: absolute;
+    left: 32px;
+    top: 250px;
+    width: 175px;
+
+}
+
+#features-sub-key-point-3 {
+    position: absolute;
+    left: 32px;
+    top: 378px;
+    width: 175px;
+
+}
+
+.features-sub-key-point .bi-icon {
+    position: absolute;
+    left: -32px;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+}
+
+.image-circular-s4, 
+.image-circular-s5, 
+.image-circular-s6 {
+    width: 376.57px;
+    height: 542.07px;
+    transform: rotate(-45deg);
+    z-index: 0;
+
+
+}
+.image-circular-s4 {
+    position: absolute;
+    left: 245px;
+    top: 1000px; /* Corrected top value to align with the section */
+    
+}
+
+.image-circular-s5 {
+    position: absolute;
+    left: 215px;
+    top: 1030px; /* Corrected top value to align with the section */
+}
+
+.image-circular-s6 {
+    position: absolute;
+    left: 185px;
+    top: 1060px; /* Corrected top value to align with the section */
+}
+
+
+/* Advantages section */
+
+.advantages-section {
+    position: absolute;
+    left: 175px;
+    top: 1780.50px;
+    width: 535px;
+    height: 323px;
+}
+
+.advantages-heading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 154px;
+    height: 28px;
+    color: #FF5555;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.advantages-key-point {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 470px;
+    height: 48px;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.advantages-sub-key-point {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+#advantages-sub-key-point-1 {
+    position: absolute;
+    left: 63px;
+    top: 142px;
+    width: 320px;
+
+}
+
+.description {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 50%;
+
+}
+
+
+#description-1 {
+    position: absolute;
+    left: -32px;
+    top: 12px;
+    width: 638px;
+
+}
+
+#description-2 {
+    position: absolute;
+    left: -32px;
+    top: 12px;
+    width: 638px;
+
+}
+
+#description-3 {
+    position: absolute;
+    left: -32px;
+    top: 12px;
+    width: 638px;
+
+}
+
+.image-visa-card {
+    left: 307px;
+    top: 2446.71px;
+    width: 260.3px;
+    height: 159.31px;
+    z-index: 3;
+
+}
+
+
+.image-upper-layer-iphone {
+    left: 1000px;
+    top: 1875.71px;
+    width: 300px;
+    height: 150px;
+    z-index: 3;
+}
+#advantages-description-1 {
+    position: absolute;
+    left: -32px;
+    top: 72px;
+    width: 535px;
+}
+
+#advantages-description-2 {
+    position: absolute;
+    left: -32px;
+    top: 72px;
+    width: 535px;
+}
+
+#advantages-sub-key-point-2 {
+    position: absolute;
+    left: 585px;
+    top: 695px;
+    width: 320px;
+
+}
+
+#advantages-sub-key-point-3 {
+    position: absolute;
+    left: 32px;
+    top: 368px;
+    width: 175px;
+
+}
+
+.advantages-sub-key-point .bi-icon {
+    position: absolute;
+    left: -32px;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+}
+
+.image-circular-s7, 
+.image-circular-s8, 
+.image-circular-s9 {
+    width: 376.57px;
+    height: 542.07px;
+    transform: rotate(-45deg);
+    z-index: 0;
+
+
+}
+.image-circular-s7 {
+    position: absolute;
+    left: 875px;
+    top: 1630px; /* Corrected top value to align with the section */
+    
+}
+
+.image-circular-s8 {
+    position: absolute;
+    left: 845px;
+    top: 1660px; /* Corrected top value to align with the section */
+}
+
+.image-circular-s9 {
+    position: absolute;
+    left: 815px;
+    top: 1690px; /* Corrected top value to align with the section */
+}
+
+.image-circular-s10, 
+.image-circular-s11, 
+.image-circular-s12 {
+    width: 376.57px;
+    height: 542.07px;
+    transform: rotate(-45deg);
+    z-index: 0;
+
+
+}
+.image-circular-s10 {
+    position: absolute;
+    left: 230px;
+    top: 2275px; /* Corrected top value to align with the section */
+    
+}
+
+.image-circular-s11 {
+    position: absolute;
+    left: 200px;
+    top: 2305px; /* Corrected top value to align with the section */
+}
+
+.image-circular-s12 {
+    position: absolute;
+    left: 170px;
+    top: 2335px; /* Corrected top value to align with the section */
+}
+
+/* New Testimonial Section */
+.testimonial-section {
+    position: absolute;
+    top: 2981.75px;
+    left: 80px;
+    width: 1185px;
+    height: 821px;
+}
+
+.feedback-main {
+    position: absolute;
+    left: 646px;
+    top: 0px;
+    width: 150px;
+    height: 28px;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.feedback-key-point {
+    position: absolute;
+    text-align: center;
+    left: 493px;
+    top: 0px;
+    width: 455px;
+    height:96px;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.feedback-sub-key-point {
+    position: absolute;
+    left: 823px;
+    top: 252.96px; /* Corrected top value to align with the section */
+    width: 442px;
+    height: 56px;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.feedback-description {
+    position: absolute;
+    left: 823px;
+    top: 332.96px; /* Corrected top value to align with the section */
+    width: 442px;
+    height: 196px;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.5;
+}
+
+/* Images */
+.image-feedback-1 {
+    position: absolute;
+    left: 209.8px;
+    top: 246.75px; /* Corrected top value to align with the section */
+    width: 87.65px;
+    height: 87.65px;
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.image-feedback-2 {
+    position: absolute;
+    left: 535.67px;
+    top: 246.75px; /* Corrected top value to align with the section */
+    width: 110.12px;
+    height: 110.12px;
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.image-feedback-3 {
+    position: absolute;
+    left: 206.43px;
+    top: 564.76px; /* Corrected top value to align with the section */
+    width: 93.27px;
+    height: 93.27px;
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.image-feedback-4 {
+    position: absolute;
+    left: 552.53px;
+    top: 587.23px; /* Corrected top value to align with the section */
+    width: 76.41px;
+    height: 76.41px;
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.image-quotes {
+    position: absolute;
+    left: 501.96px;
+    top: 434.41px; /* Corrected top value to align with the section */
+    width: 79.78px;
+    height: 79.78px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.image-quotation {
+    position: absolute;
+    left: 525px;
+    top: 455px; /* Corrected top value to align with the section */
+    width: 35px;
+    height: 30px;
+    z-index: 3;
+    
+}
+
+.image-main-feedback {
+    position: absolute;
+    left: 328.91px;
+    top: 366.98px; /* Corrected top value to align with the section */
+    width: 213.5px;
+    height: 213.5px;
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.image-feedback-mini-1 {
+    position: absolute;
+    left: 823px;
+    top: 552.96px; /* Corrected top value to align with the section */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.image-feedback-mini-2 {
+    position: absolute;
+    left: 871px;
+    top: 552.96px; /* Corrected top value to align with the section */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 50%;
+    z-index: 2;
+}
+
+.image-feedback-mini-3 {
+    position: absolute;
+    left: 909px;
+    top: 552.96px; /* Corrected top value to align with the section */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 50%;
+    z-index: 2;
+}
+
+.image-feedback-mini-4 {
+    position: absolute;
+    left: 947px;
+    top: 552.96px; /* Corrected top value to align with the section */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 50%;
+    z-index: 2;
+}
+
+.image-feedback-mini-5 {
+    position: absolute;
+    left: 985px;
+    top: 552.96px; /* Corrected top value to align with the section */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 50%;
+    z-index: 2;
+}
+
+.image-circular-1, 
+.image-circular-2, 
+.image-circular-3 {
+    width: 376.57px;
+    height: 542.07px;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    z-index: 1;
+
+
+}
+.image-circular-1 {
+    position: absolute;
+    left: 263.42px;
+    top: 160.24px; /* Corrected top value to align with the section */
+    
+}
+
+.image-circular-2 {
+    position: absolute;
+    left: 231.71px;
+    top: 191.95px; /* Corrected top value to align with the section */
+}
+
+.image-circular-3 {
+    position: absolute;
+    left: 200px;
+    top: 223.66px; /* Corrected top value to align with the section */
+}
+
+
+/* FAQ Section */
+.faq-section {
+    padding: 50px 20px;
+    position: absolute;
+    left: 175px;
+    top: 3870.71px;
+    width: 1090px;
+    height: 751px;
+    border-radius: 8px;
+
+  }
+  
+  .faq-title {
+    font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    color: #FF5555;
+    text-transform: uppercase;
+  }
+  
+  .faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+  
+  .faq-item {
+    background-color: #FF5555;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    padding: 20px;
+    flex: 1 1 calc(40% - 1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .faq-item:hover{
+    background-color: #FF5555;
+    border: 2px solid black;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 calc(40% - 1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .faq-heading {
+    left: 175px;
+    top: 0px;
+    width: 497px;
+    height: 120px;
+    color: black;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    
+  }
+  
+  .faq-item p {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .faq-item:nth-child(2),
+  .faq-item:nth-child(3),
+  .faq-item:nth-child(6) {
+    background: none;
+    color: #000000;
+    box-shadow:none;
+  }
+
+
+  /*final ui section */
+
+  .image-final-ui {
+    position: absolute;
+    left: 175px;
+    top: 4777px; /* Corrected top value to align with the section */
+    border-radius: 2px;
+    z-index: 1;
+  }
+
+  .download-final-ui-button {
+    position: absolute;
+    padding: 20px;
+    top: 5070px;
+    left: 250px;
+    width: 208px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border: none;
+    line-height: 28px;
+    font-family: 'Clash Display ', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.download-final-ui-button:hover{
+    border: 2px solid white;
+    background-color: #FF5555;
+    color: #000000;
+
+}
+
+.apple-icon
+{
+    position: absolute;
+    top: 13px;
+    left: 150px;
+}
+
+
+.image-heading-container {
+    position: absolute;
+    left: 252px;
+    top: 4854px;
+    width: 547px;
+    height: 48px;
+    z-index: 2;
+}
+
+.image-heading{
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.image-description-container{
+    position: absolute;
+    left: 252px;
+    top: 4965px;
+    width: 536px;
+    height: 56px;
+    z-index: 2;
+}
+
+.image-description {
+    color: white;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+
+/* footer section */
+
+.footer {
+    position: absolute;
+    top: 5440px;
+    left: 175px;
+    width: 1091px;
+    height: 406px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+  }
+  
+  .footer-section a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: 'Clash Display', sans-serif;
+  }
+
+  .footer-section a:hover{
+    color: #FF5555;
+    font-weight: 600;
+  }
+
+  
+  
+  .footer-section.about img {
+    width: 117px;
+    height: 34.41;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+  }
+  
+  .footer-section.about p {
+    margin: 5px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 500;
+    line-height: 26px;
+    font-size: 16px;
+  }
+  
+  .footer-section.newsletter form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 500;
+  }
+  
+  .footer-section.newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Clash Display', sans-serif;
+    width: 340px;
+    height: 81px;
+
+  }
+  
+  .footer-section.newsletter button {
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    top: 5549.71px;
+    left: 1096px;
+    height: 61px;
+    width: 160px;
+  }
+
+  .footer-section.newsletter button:hover{
+    color: black;
+    background-color: #FF5555;
+    border: 2px solid black;
+
+  }
+
+
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    font-family: 'Clash Display', sans-serif;
+  }
+  
+  .footer-bottom p {
+    margin: 10px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    
+  }
+  
+   
+
+
+  
