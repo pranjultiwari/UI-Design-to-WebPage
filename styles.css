@@ -254,6 +254,8 @@ img {
     z-index: 2;
 }
 
+
+
 .iphone-front {
     left: 840px;
     top: 140px;
@@ -261,6 +263,11 @@ img {
     height: 504.32px;
     z-index: 3;
     transform: rotate(-15deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.iphone-front:hover {
+    transform: scale(1.1);
 }
 
 .iphone-middle {
@@ -270,6 +277,11 @@ img {
     height: 505.02px;
     z-index: 2;
     transform: rotate(-15deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.iphone-middle:hover {
+    transform: scale(1.1);
 }
 
 .iphone-back {
@@ -279,6 +291,12 @@ img {
     height: 505.02px;
     z-index: 1;
     transform: rotate(-15deg);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.iphone-back:hover {
+    transform: scale(1.1);
 }
 
 .iphone-front-features {
