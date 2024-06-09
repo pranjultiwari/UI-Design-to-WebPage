@@ -42,6 +42,10 @@ nav {
     z-index: 5;
 }
 
+.nav-menu a {
+    color: #000000;
+}
+
 .nav-item {
     position: absolute;
     top: 57px;
