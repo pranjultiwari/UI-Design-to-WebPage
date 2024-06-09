@@ -15,7 +15,7 @@ To run this project locally, follow these steps:
 
 This project is a demonstration of a Responsive App Landing Page Design. It features a responsive design and incorporates various elements such as a Header, navigation menu, download button, images, text containers, buttons, and sections for features, advantages, and testimonials.
 
-### Design Choices
+## Design Choices
 
 - **Font**: Clash Display font is used for headings and navigation items to give a modern and bold look.
 - **Colors**: The color scheme includes black for text and buttons, with a highlight color of #FF5555 for interactive elements.
