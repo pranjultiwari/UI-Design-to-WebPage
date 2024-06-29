@@ -27,3 +27,9 @@ This project is a demonstration of a Responsive App Landing Page Design. It feat
 
 The design for this project was created using Figma as a reference.
 Figma Design Template <a href="https://www.figma.com/community/file/1145991068621514311" </a>
+
+## Live Website Link
+
+The following project is also hosted on vercel
+Website Link <a href="https://uifry-devpranjul-m4bqwh719-pranjultiwaris-projects.vercel.app/" </a>
+
