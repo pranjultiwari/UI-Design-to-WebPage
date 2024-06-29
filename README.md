@@ -31,5 +31,5 @@ Figma Design Template <a href="https://www.figma.com/community/file/114599106862
 ## Live Website Link
 
 The following project is also hosted on vercel. <br>
-Website Link:  <a href = "https://uifry-devpranjul-m4bqwh719-pranjultiwaris-projects.vercel.app/" target="_blank"> Click here to visit the project </a>
+Website Link:  <a href = "https://uifry-devpranjul-m4bqwh719-pranjultiwaris-projects.vercel.app/" target="_blank"> Click here to visit the Project </a>
 
