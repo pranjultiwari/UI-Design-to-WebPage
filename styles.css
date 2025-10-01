@@ -416,8 +416,8 @@ img {
     position: absolute;
     left: 0;
     top: 0;
-    width: 116px;
-    height: 28px;
+    width: 120px;
+    height: 32px;
     color: #FF5555;
     font-family: 'Clash Display', sans-serif;
     font-weight: 500;
@@ -538,8 +538,8 @@ img {
     position: absolute;
     left: 0;
     top: 0px;
-    width: 470px;
-    height: 48px;
+    width: 480px;
+    height: 52px;
     color: black;
     font-family: 'Clash Display', sans-serif;
     font-weight: bold;
@@ -1225,6 +1225,7 @@ img {
   }
   
    
+
 
 
   
