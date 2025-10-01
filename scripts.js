@@ -1,10 +1,16 @@
 // Smooth scrolling for internal links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+    anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth'
+            });
+        } else {
+            console.warn(`⚠️ Target element "${targetId}" not found.`);
+        }
     });
 });
 
@@ -12,14 +18,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const galleryImages = document.querySelectorAll('.gallery img');
 galleryImages.forEach(img => {
     img.addEventListener('click', () => {
+        // prevent multiple lightboxes
+        if (document.getElementById('lightbox')) return;
+
         const lightbox = document.createElement('div');
         lightbox.id = 'lightbox';
         document.body.appendChild(lightbox);
-        
+
         const imgElement = document.createElement('img');
         imgElement.src = img.src;
         lightbox.appendChild(imgElement);
-        
+
         lightbox.addEventListener('click', () => {
             lightbox.remove();
         });
@@ -29,6 +38,10 @@ galleryImages.forEach(img => {
 // Dark mode toggle
 const toggleDarkMode = document.createElement('button');
 toggleDarkMode.innerText = 'Toggle Dark Mode';
+toggleDarkMode.style.position = 'fixed';
+toggleDarkMode.style.bottom = '20px';
+toggleDarkMode.style.right = '20px';
+toggleDarkMode.style.zIndex = '1000';
 document.body.appendChild(toggleDarkMode);
 
 toggleDarkMode.addEventListener('click', () => {
